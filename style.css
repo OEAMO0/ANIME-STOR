@@ -1,0 +1,155 @@
+* {
+    background-color: rgb(19, 18, 18);
+    justify-items: center;
+}
+
+.h1class {
+    padding: 10px 20px;
+    border: 2px solid crimson;
+    color: black;
+    transition: .3S ease;
+    font-family: 'Arial', sans-serif;
+}
+
+.h1class span {
+    color: crimson;
+    transition: .3S ease;
+}
+
+.h1class:hover span {
+    color: black;
+}
+
+.h1class:hover {
+    color: crimson;
+}
+
+.text {
+    padding: 8px 8px;
+    border: 2px solid crimson;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+    color: rgb(98, 90, 109);
+    font-size: 26px;
+}
+
+.text span {
+    color: transparent;
+    font-family: 'Arial', sans-serif;
+    font-size: 26px;
+    transition: .5s ease-in;
+}
+
+.text:hover span {
+    color: crimson;
+}
+
+.div {
+    border: 2px solid crimson;
+    height: 155px;
+    border-radius: 16px;
+    margin-top: 50px;
+    margin-right: 350px;
+    transition:  .3s ease;
+}
+
+.div:hover {
+    transform: scale(1.1);
+}
+
+.img {
+    border-radius: 16px;
+    height: 100px;
+    width: 100%;
+}
+
+.h3 {
+    border: 2px solid crimson;
+    border-radius: 16px;
+    margin-top: 5px;
+    color: black;
+    padding: 5px 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+.h3 span {
+    color: crimson;
+    transition: .3s ease;
+}
+
+h3:hover span {
+    color: black;
+}
+
+h3:hover {
+    color: crimson;
+}
+
+.gg {
+    margin-top: 100px;
+    height: 460px;
+    width: 500px;
+    border: 2px solid crimson;
+    justify-items: center;
+    background-color: transparent;
+    border-radius: 16px 20%;
+}
+
+.gg:hover {
+    background-color: rgb(124, 120, 120);
+}
+
+.div1 {
+    border: 2px solid crimson;
+    height: 155px;
+    border-radius: 16px;
+    margin-top: -369px;
+    margin-right: 0px;
+    transition:  .3s ease;
+}
+
+.div1:hover {
+    transform: scale(1.1);
+}
+
+
+.div2 {
+    border: 2px solid crimson;
+    height: 155px;
+    border-radius: 16px;
+    margin-top: 50px;
+    transition:  .3s ease;
+}
+
+.div2:hover {
+    transform: scale(1.1);
+}
+
+
+.div3 {
+    border: 2px solid crimson;
+    height: 155px;
+    border-radius: 16px;
+    margin-top: -369px;
+    margin-right: -350px;
+    transition: .3s ease;
+}
+
+.div3:hover {
+    transform: scale(1.1);
+}
+
+.div4 {
+    border: 2px solid crimson;
+    height: 155px;
+    border-radius: 16px;
+    margin-top: 50px;
+    margin-right: -350px;
+    transition: .3s ease;
+}
+
+.div4:hover {
+    transform: scale(1.1);
+}
+
